@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Personal Data
+    </title>
+    <script src="personaldata.js"></script>
+</head>
+
+<body>
+    <form id="personalDataChecker">
+    <h1>
+        Personal Data Checker
+    </h1>
+    <h4>
+        Your Name: <input id="name">
+    </h4>
+    <h4>
+        Your Date of Birth: <input type="date"id="dob">
+    </h4> <br>
+   <p> 
+        <label> 
+            What is your favorite food?
+        </label>
+        <input id="food"> 
+    </p>
+    <p>
+        <label>
+            What is your favorite movie?
+        </label>
+        <input id="movie"> 
+    </p>
+    <p>   
+        <label>
+            What is your favorite color?
+        </label>
+        <input id="color">
+    </p>
+    <button type="button" onclick="showDetails()"> 
+        Show Details 
+    </button>
+    <div id="result"> </div>
+    <button type="button" onclick="zodiacSign()">
+        Show Sign
+    </button>
+    <div id="sign"> </div>
+    <br>
+    <button onclick="resetForm()">
+        Reset
+    </button>
+    </form>
+</body>
+</html>
